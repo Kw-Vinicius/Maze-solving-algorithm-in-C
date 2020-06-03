@@ -52,10 +52,10 @@ printf("Fill in your matrix: ( 1 = avaliable path / 0 = wall) \n");
 
 void labirinto(int matriz[][50],int n, int m, int i, int j,int cont)
 {
-	baixo(matriz,n,m,i,j,cont);
-	cima(matriz,n,m,i,j,cont);
-	direita(matriz,n,m,i,j,cont);
-	esquerda(matriz,n,m,i,j,cont);
+	baixo(matriz,n,m,i,j,cont);     //go down
+	cima(matriz,n,m,i,j,cont);      //go up
+	direita(matriz,n,m,i,j,cont);   //go right
+	esquerda(matriz,n,m,i,j,cont);  //go left
 }
 
 
