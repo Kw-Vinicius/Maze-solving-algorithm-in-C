@@ -1,6 +1,6 @@
 ﻿# Maze-solving-algorithm-in-C
  
-**##Pt_BR**
+**## Pt_BR**
 
 Dando um labirinto na forma de uma matriz retangular (M, N) binária, encontre o caminho mais curto no labirinto a partir de uma origem (xini, yini) até um dado destino (xfim, yfim), sendo que xini, yini, xfim, yfim são células da matriz MxN. O caminho deve ser construído com células que possuem valor 1. Para percorrer o labirinto, em qualquer momento, é possível mover um passo de cada vez em uma das quatro direções:
 
